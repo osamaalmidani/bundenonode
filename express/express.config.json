@@ -1,0 +1,7 @@
+{
+    "url": "http://localhost:3001",
+    "concurrency": 100,
+    "duration": 30,
+    "requests": 1000,
+    "timeout": 5000
+}

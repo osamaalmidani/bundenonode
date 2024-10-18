@@ -1,0 +1,20 @@
+{
+  "name": "bundenonode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-bun": "bun run bun/bun-server.js",
+    "start-express": "node express/express-server.js",
+    "bombardier-bun": "bombardier -c 100 -n 1000 http://localhost:3000",
+    "bombardier-express": "bombardier -c 100 -n 1000 http://localhost:3001"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "socket.io": "^4.8.0"
+  }
+}
